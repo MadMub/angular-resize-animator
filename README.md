@@ -6,7 +6,7 @@ As of July 19th, 2015 it works on Safari, Chrome, and Firefox, and maybe IE but 
 # Usage
 Simple attach the directive to your container and specify the css class where the transition is defined.
 ```html
-<div resize-animator="my-easing-class">{{ contentThatMakesStuffBiggerOverTime }}</div>
+<div resize-animator="my-easing-class">{{ dynamicContent }}</div>
 ```
 For many the following css will suffice
 ```css
